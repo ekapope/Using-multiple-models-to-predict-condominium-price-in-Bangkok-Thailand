@@ -1,6 +1,6 @@
 # Using multiple models to predict condominium price in Bangkok, Thailand.
 
-Steps:
+# Steps:
 
 - Load csv Pandas DataFrame containing condominium data retrieved by from the webscraper. The csv file can be download [here](https://github.com/ekapope/web-scraping-using-selenium-and-bs4/blob/master/df_hipflat_cleaned_01_gh.csv) from previous [webscraping project](https://github.com/ekapope/web-scraping-using-selenium-and-bs4).
 
@@ -26,7 +26,7 @@ Steps:
 
 - The benchmark is R-Square from 10-fold CV.
 
-Score Results:
+# Score Results:
 
 1. Gradient Boosting regression - 0.7743
 
@@ -56,9 +56,9 @@ Even this dataset is quite small with lots of features and we can only predict t
 
 Rooms for improvement:
 
-We still do have the price history data which can be really useful to visualize the trends for each area (which area is rapidly growing, which area is reaching plateau stage).
+We still did not use the price history data in this project which can be really useful to visualize the trends for each area (which area is growing rapidly, which area is reaching plateau stage).
 
-In the scraping step, we should acquire all listings available in each condo, not only average price per sqm. It would be very useful to estimate the price for each specific room in the future.
+In the scraping step, we should acquire all listings available in each condo, not only average price per sqm. This should increase numerous numbers of records and it would be very useful to estimate the price for every single room in the future.
 
 Thanks to these people for inspiration:
 
