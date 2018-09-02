@@ -6,6 +6,10 @@ Steps:
 
 - Perform some basic data exploration and visualization.
 
+![price-lat-long_map](price-lat-long_map.png)
+
+![Top-10_correlation_between_different_features](Top-10_correlation_between_different_features.png)
+
 - Clean up and drop unused columns.
 
 - Use pd.get_dummies() to convert catagorical data to columns.
@@ -43,6 +47,8 @@ Score Results:
 9. Decision Trees - 0.5517
 
 Averaged models score (from top 5) - 0.7219
+
+![averaged_models](averaged_models.png)
 
 Summary:
 
