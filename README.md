@@ -46,13 +46,11 @@
 
 9. Decision Trees - 0.5517
 
-Averaged models score (from top 5) - 0.7219
-
 ![averaged_models](averaged_models.png)
 
 #### Summary:
 
-Even this dataset is quite small with lots of features and we can only predict the price per square meters for each condo. However, this study will be very useful for buyers, resellers, agents and even developers to justify the 'fair price' as a starting point based on the current actual market data.
+Even this dataset is quite small with lots of features and we can only predict the price per square meters for each condo, however, this study is very useful for buyers, resellers, agents and even developers to justify the 'fair price' as a starting point based on the current actual market data.
 
 #### Rooms for improvement:
 
